@@ -1,0 +1,97 @@
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-Bold;
+    src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-Medium;
+    src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Montserrat-Bold;
+    src: url('../fonts/montserrat/Montserrat-Bold.ttf'); 
+  }
+
+
+body{
+margin: auto;
+    text-align: center;
+    border-bottom: olive;
+    border-top: olive;
+
+    
+}
+
+
+.body1{
+background-color: #3044db;
+list-style-type: none;
+border-style: dotted;
+margin-top: 100px;
+margin-left: 100px;
+margin-right: 100px;
+margin-bottom: 100px;
+border-color: white;
+padding-block-end: 100px;
+padding-block-start: 50px;
+padding-left: 40px;
+padding-right: 40px;
+border-radius: 20px;
+
+}
+
+
+ul, li {
+
+    text-decoration: none;
+    border-style: none;
+    list-style-type: none;
+
+}
+
+
+a:link
+{
+text-decoration:none;
+color: wheat;
+}
+
+.btn-hover{
+    
+   margin-top: 10px;
+    min-height: 40px; width: 100px; border-radius: 20px; 
+
+    border: 1px solid white; 
+    background-color:white; 
+
+}
+
+
+.footer {
+  background-color: white;
+}
+
+input {
+	outline: none;
+	border: none;
+}
+
+textarea {
+  outline: none;
+  border: none;
+
+}
+
+textarea:focus, input:focus {
+  border-color: transparent !important;
+}
+
+
+
